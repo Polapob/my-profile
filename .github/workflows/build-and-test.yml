@@ -31,7 +31,7 @@ jobs:
         run: pnpm install
       - name: Check version of pnpm
         run: pnpm -v
-      - name: build the project
-        run: pnpm run build:frontend
       - name: run test in frontend
         run: pnpm run test:frontend
+      - name: build the project
+        run: pnpm run build:frontend
