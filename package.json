@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "tsc": "tsc",
+    "build:frontend": "nx run profile-frontend:build:production",
     "dev:frontend": "nx run profile-frontend:serve",
     "test:frontend": "nx run profile-frontend:test"
   },
