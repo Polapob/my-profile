@@ -10,7 +10,7 @@
     "composite": true
   },
   "files": [],
-  "include": ["./tsconfig.spec.json"],
+  "include": ["./tsconfig.spec.json", "src/**/*"],
   "references": [
     {
       "path": "./tsconfig.spec.json"

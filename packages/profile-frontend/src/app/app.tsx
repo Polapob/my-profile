@@ -1,15 +1,12 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
+import TestImport from '../components/TestImport';
 
 import { Route, Routes, Link } from 'react-router-dom';
 
 export function App() {
   return (
     <>
-      <NxWelcome title="profile-frontend" />
-
       <div />
 
       {/* START: routes */}
